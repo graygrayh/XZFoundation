@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XZFoundation'
-  s.version          = '0.1'
+  s.version          = '0.1.1'
   s.summary          = '基础拓展、工具类组件'
 
 # This description is used to generate tags and improve search results.
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 基础拓展、工具组件库
                        DESC
 
-  s.homepage         = 'https://github.cn/graygrayh/XZfoundation'
+  s.homepage         = 'https://github.com/graygrayh/XZFoundation'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'graygrayh' => '873557329@qq.com' }
-  s.source           = { :git => 'https://github.cn/graygrayh/XZfoundation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/graygrayh/XZFoundation.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
 

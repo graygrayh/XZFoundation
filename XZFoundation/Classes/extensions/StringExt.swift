@@ -357,7 +357,7 @@ public extension XZ where Base == String{
         if base.count <= maxLen {
             return base
         }else{
-            var targetStr = fromTail ? String(base.suffix(maxLen)) : String(base.prefix(maxLen))
+            let targetStr = fromTail ? String(base.suffix(maxLen)) : String(base.prefix(maxLen))
             if suffix.isEmpty {
                 return targetStr
             }else{
