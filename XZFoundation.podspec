@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XZFoundation'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XZFoundation.'
+  s.version          = '0.1'
+  s.summary          = '基础拓展、工具类组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+基础拓展、工具组件库
                        DESC
 
-  s.homepage         = 'https://github.com/xuzh/XZFoundation'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.cn/graygrayh/XZfoundation'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xuzh' => '873557329@qq.com' }
-  s.source           = { :git => 'https://github.com/xuzh/XZFoundation.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'graygrayh' => '873557329@qq.com' }
+  s.source           = { :git => 'https://github.cn/graygrayh/XZfoundation.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'XZFoundation/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'XZFoundation' => ['XZFoundation/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
+  s.dependency 'KeychainSwift' #19.0.0
+  
 end

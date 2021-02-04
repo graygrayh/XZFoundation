@@ -1,0 +1,29 @@
+{
+  "name": "XZFoundation",
+  "version": "0.1",
+  "summary": "基础拓展、工具类组件",
+  "description": "基础拓展、工具组件库",
+  "homepage": "https://xgit.xiaoniangao.cn/app/ios/component/XZfoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "melodyiphone": "melodyiphone@163.com"
+  },
+  "source": {
+    "git": "https://xgit.xiaoniangao.cn/app/ios/component/XZfoundation.git",
+    "tag": "0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XZFoundation/Classes/**/*",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "KeychainSwift": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}
